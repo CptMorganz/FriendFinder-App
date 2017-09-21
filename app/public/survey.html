@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FriendFinder | Survey</title>
+	<!-- Latest compiled and minified CSS -->
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<body>
+
+	<div class="container">
+
+		<!-- Main page content -->
+		<div class="jumbotron text-center">
+			<h1><strong>Friend Finder Survey!</strong></h1>
+
+			<hr>
+			<h3>
+				Fill out some brief information about yourself. Then answer the following questions to begin searching for a friend with high compatibility.
+			</h3>
+			<hr>
+
+		</div> <!-- End jumbotron -->
+
+      	<!-- User Name and Photo Panel -->
+      	<div class="panel panel-default">
+        	<div class="panel-heading">
+          		<h3 class="panel-title"><strong>About You</strong></h3>
+        	</div>
+        	<div class="panel-body">
+          		<h4>Your Name</h4>
+          		<div class="input-group">
+            		<input id = "formName" class="form-control" type="text" name="name" placeholder="John Smith">
+            		<span class="input-group-addon">(Required)</span>
+          		</div>  
+          		<br>
+          		<h4>Link to a Photo Image</h4>
+          		<div class="input-group">
+            		<input id = "formImage" class="form-control" type="text" name="name" placeholder="http://yourphotolink.com.jpg/">
+            		<span class="input-group-addon">(Required)</span>
+          		</div>
+        	</div>
+      	</div>
+
+      	<!-- Survey Questions -->
+      	<div class="panel panel-default">
+      		<div class="panel-heading">
+      			<h2><strong>Survey Questions</strong></h2>
+      		</div>
+			
+			<div class="panel-body">
+				
+				<!-- Question 1 -->
+				<h4><strong>Question 1</strong></h4>
+				<h5>???? here</h5>
+				<select data-placeholder="" class="chosen-select" id="Q1">
+					<option value="" disabled selected>Choose your option</option>
+		            <option value="1">1 (Strongly Disagree)</option>
+		            <option value="2">2</option>
+		            <option value="3">3</option>
+		            <option value="4">4</option>
+		            <option value="5">5 (Strongly Agree)</option>
+				</select>
+
+				<!-- Question 2 -->
+				<h4><strong>Question 2</strong></h4>
+				<h5>???? here</h5>
+				<select data-placeholder="" class="chosen-select" id="Q2">
+					<option value="" disabled selected>Choose your option</option>
+		            <option value="1">1 (Strongly Disagree)</option>
+		            <option value="2">2</option>
+		            <option value="3">3</option>
+		            <option value="4">4</option>
+		            <option value="5">5 (Strongly Agree)</option>
+				</select>
+
+				<!-- Question 3 -->
+				<h4><strong>Question 3</strong></h4>
+				<h5>???? here</h5>
+				<select data-placeholder="" class="chosen-select" id="Q3">
+					<option value="" disabled selected>Choose your option</option>
+		            <option value="1">1 (Strongly Disagree)</option>
+		            <option value="2">2</option>
+		            <option value="3">3</option>
+		            <option value="4">4</option>
+		            <option value="5">5 (Strongly Agree)</option>
+				</select>
+
+				<!-- Question 4 -->
+				<h4><strong>Question 4</strong></h4>
+				<h5>???? here</h5>
+				<select data-placeholder="" class="chosen-select" id="Q4">
+					<option value="" disabled selected>Choose your option</option>
+		            <option value="1">1 (Strongly Disagree)</option>
+		            <option value="2">2</option>
+		            <option value="3">3</option>
+		            <option value="4">4</option>
+		            <option value="5">5 (Strongly Agree)</option>
+				</select>
+
+				<!-- Question 5 -->
+				<h4><strong>Question 5</strong></h4>
+				<h5>???? here</h5>
+				<select data-placeholder="" class="chosen-select" id="Q5">
+					<option value="" disabled selected>Choose your option</option>
+		            <option value="1">1 (Strongly Disagree)</option>
+		            <option value="2">2</option>
+		            <option value="3">3</option>
+		            <option value="4">4</option>
+		            <option value="5">5 (Strongly Agree)</option>
+				</select>
+
+				<!-- Question 6 -->
+				<h4><strong>Question 6</strong></h4>
+				<h5>???? here</h5>
+				<select data-placeholder="" class="chosen-select" id="Q6">
+					<option value="" disabled selected>Choose your option</option>
+		            <option value="1">1 (Strongly Disagree)</option>
+		            <option value="2">2</option>
+		            <option value="3">3</option>
+		            <option value="4">4</option>
+		            <option value="5">5 (Strongly Agree)</option>
+				</select>
+
+				<!-- Question 7 -->
+				<h4><strong>Question 7</strong></h4>
+				<h5>???? here</h5>
+				<select data-placeholder="" class="chosen-select" id="Q7">
+					<option value="" disabled selected>Choose your option</option>
+		            <option value="1">1 (Strongly Disagree)</option>
+		            <option value="2">2</option>
+		            <option value="3">3</option>
+		            <option value="4">4</option>
+		            <option value="5">5 (Strongly Agree)</option>
+				</select>
+
+				<!-- Question 8 -->
+				<h4><strong>Question 8</strong></h4>
+				<h5>???? here</h5>
+				<select data-placeholder="" class="chosen-select" id="Q8">
+					<option value="" disabled selected>Choose your option</option>
+		            <option value="1">1 (Strongly Disagree)</option>
+		            <option value="2">2</option>
+		            <option value="3">3</option>
+		            <option value="4">4</option>
+		            <option value="5">5 (Strongly Agree)</option>
+				</select>
+
+				<!-- Question 9 -->
+				<h4><strong>Question 9</strong></h4>
+				<h5>???? here</h5>
+				<select data-placeholder="" class="chosen-select" id="Q9">
+					<option value="" disabled selected>Choose your option</option>
+		            <option value="1">1 (Strongly Disagree)</option>
+		            <option value="2">2</option>
+		            <option value="3">3</option>
+		            <option value="4">4</option>
+		            <option value="5">5 (Strongly Agree)</option>
+				</select>
+
+				<!-- Question 10 -->
+				<h4><strong>Question 10</strong></h4>
+				<h5>???? here</h5>
+				<select data-placeholder="" class="chosen-select" id="Q10">
+					<option value="" disabled selected>Choose your option</option>
+		            <option value="1">1 (Strongly Disagree)</option>
+		            <option value="2">2</option>
+		            <option value="3">3</option>
+		            <option value="4">4</option>
+		            <option value="5">5 (Strongly Agree)</option>
+				</select>
+			</div>
+      	</div>
+
+		<!-- Submit Button -->
+		<button style="margin:0px auto;" type="submit" class="btn btn-primary btn-block" 
+		id="submitBtn"><h3><strong><span class="glyphicon glyphicon-send"></span> Submit</strong>
+		</h3></button>
+
+		<hr>
+
+		<!-- Footer -->
+		<footer class="footer">
+      		<div class="container text-center" style="background-color:bisque; border-radius:5px; width:50%; padding-top:10px;">
+       	 		<p style="color:goldenrod;"><a href="/api/friends">API Friends List</a> | <a href="#">GitHub Repo</a></p>
+      		</div>
+    	</footer>
+
+    	<!-- Match Modal for new Found Friend -->
+      	<div id="resultsModal" class="modal fade" role="dialog">
+        	<div class="modal-dialog">
+
+          		<!-- Modal Content-->
+          		<div class="modal-content">
+
+            		<!-- "X" Button to close the modal -->
+            		<div class="modal-header">
+              			<button type="button" class="close" data-dismiss="modal">&times;</button>
+              			<h2 class="modal-title"><strong>Meet Your New Friend!</strong></h2>
+            		</div>
+
+            		<!-- Modal Body (For Match Info) -->
+            		<div class="modal-body">
+              			<h2 id="matchName"></h2>
+              			<img id="matchImg" src="" alt="Image Not Found" style="max-width: 350px;">
+            		</div>
+
+            		<!-- Modal Footer (Close Button) -->
+            		<div class="modal-footer">
+              			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            		</div>
+          		</div>
+        	</div>
+      	</div>
+
+	</div> <!-- End container -->
+
+
+
+    <!-- JavaScript for Submission Logic -->
+    <script>
+    	
+    	// Global variable declaration/s
+    	var allFieldsComplete;
+
+    	$(document).ready(function() {
+
+    		$("#submitBtn").on("click", function() {
+
+    			// Check if all fields are complete
+    			checkIfComplete(function() {
+    				if (allFieldsComplete) {
+    					collectAnswers();
+    				} else {
+    					// use alert for simplicity
+    					alert("Please complete all fields before trying to submit.");
+    				}
+    			}); // end checking if fields are completed
+    		}); // end submitBtn listener
+    	}); // End document.ready
+
+    	// Valid survey checking function (checkIfComplete)
+    	function checkIfComplete(callback) {
+    		// Iterate through questions to see if survey was completed proplerly
+    		var questionsComplete;
+
+    		$(".chosen-select").each(function() {
+    			if ($(this).val() == "") {
+    				questionsComplete = false;
+    			}
+    		})
+    		.promise().done(function() {
+    			// If questions are not filled out, then all fields are not complete
+    			if (questionsComplete == false) {
+    				allFieldsComplete = false;
+    			} else 
+    			// If name is not filled out, then all fields are not complete
+    			if ($("#formName").val().trim() == "") {
+    				allFieldsComplete = false;
+    			} else 
+    			// If image link is not filled out, then all fields are not complete
+    			if ($("#formImage").val().trim() == "") {
+    				allFieldsComplete = false;
+    			} else
+    			// Otherwise all fields are complete
+    			{
+    				allFieldsComplete = true;
+    			}
+    			// Send callback because of $.each being async
+    			callback();
+    		});
+    	} // end checkIfComplete function
+
+    	// Function to collect user info
+    	function collectAnswers() {
+    		// Make a new object to store friend data
+    		var newFriend = {
+    			name: $("#formName").val().trim(),
+    			photo: $("#formImage").val().trim(),
+    			scores: []
+    		};
+    		// Store answers from survey
+    		var ansArray = [];
+    		$(".chosen-select").each(function() {
+    			ansArray.push(parseInt($(this).val())); // Making sure answers are INTs
+    		})
+    		// Necessary for async $.each
+    		.promise().done(function() {
+    			newFriend.scores = ansArray;
+
+    			// POST newFriend to friends.js and get best match returned
+    			var currentURL = window.location.origin;
+    			$.post(currentURL + "/api/friends", newFriend, function(data) {
+    				$("#matchName").text(data.name);
+    				$("#matchImg").attr("src", data.photo);
+
+    				// Best match
+    				$("#resultsModal").modal("toggle");
+    			}); // end POST
+    		});
+    	} // end collectAnswers function
+
+    </script>
+
+</body>
+</html>
